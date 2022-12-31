@@ -1,0 +1,24 @@
+{
+    "name": "mageprince/module-backend-reindex",
+    "description": "Magento2 Backend Reindex Module",
+    "require": {
+        "mageprince/module-base": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mageprince",
+            "email": "contact@mageprince.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mageprince\\BackendReindex\\": ""
+        }
+    }
+}
